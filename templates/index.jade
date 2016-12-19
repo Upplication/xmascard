@@ -1,0 +1,131 @@
+doctype html
+html(lang='es')
+    head
+        meta(charset='UTF-8')
+        meta(http-equiv='X-UA-Compatible', content='IE=edge')
+        meta(name='viewport', content='width=device-width, initial-scale=1')
+        title Xmas Card animated
+        meta(name='description', content='')
+        meta(name='keywords', content='')
+        meta(name='author', content='')
+        //- Custom Favicon
+        link(rel="apple-touch-icon", sizes="180x180", href="img/favicon/apple-touch-icon.png")
+        link(rel="icon", type="image/png", href="img/favicon/favicon-32x32.png", sizes="32x32")
+        link(rel="icon", type="image/png", href="img/favicon/favicon-16x16.png", sizes="16x16")
+        link(rel="manifest", href="img/favicon/manifest.json")
+        link(rel="mask-icon", href="img/favicon/safari-pinned-tab.svg", color="#5bbad5")
+        meta(name="theme-color", content="#ffffff")
+        //- Custom styles
+        link(rel='stylesheet', type='text/css', href='css/styles.css')
+
+    body
+        .l-container.home
+            .illust-container
+                //- Container (general picture) frame
+
+                .illust-level.illust-level--intro
+
+                    .illustItem.illustItem--bgGrass
+
+                    //- Fence Post (left Side)
+                    .illustItem.illustItem--fencePost.illustItem--fencePost--first
+                        img(src='img/fencepost.svg', alt='Fence post')
+                        .illustItem.illustItem--northpole.illustItem--fence-arrow.illustItem--fence-arrow-left.symbol.symbol--northpole
+                            img(src='img/fence-arrow-left.svg', alt='Fence post Arrow Left')
+                            h2.symbol-title North Pole
+                        .illustItem.illustItem--grotto.illustItem--fence-arrow.illustItem--fence-arrow-right.symbol.symbol--grotto
+                            img(src='img/fence-arrow-right.svg', alt='Fence post Arrow Right')
+                            h2.symbol-title Upplication
+
+                    //- (weird) Plants
+                    .illustItem.illustItem--holly.symbol.symbol--holly
+                        img(src='img/holly.svg', alt='Holly')
+
+                    //- Fence Post (Right Side)
+                    .illustItem.illustItem--fencePost.illustItem--fencePost--second
+                        img(src='img/fencepost.svg', alt='Fence post')
+                        .illustItem.illustItem--lapland.illustItem--fence-arrow.illustItem--fence-arrow-right.symbol.symbol--lapland
+                            img(src='img/fence-arrow-right.svg', alt='Fence post arrow right')
+                            h2.symbol-title App Markets
+
+                    //- Ivy plant (Right Side)
+                    .illustItem.illustItem--ivy.symbol.symbol--ivy
+                        img(src='img/ivy.svg', alt='Ivy')
+
+            //. TOWN LEVEL
+            .illust-level--town
+
+                //- Snow Globe
+                .illustItem.illustItem--snowglobe
+                    img(src='img/snowglobe.svg', alt='Snow Globe')
+
+                .illustItem.illustItem--town
+                    //- Town (background)
+                    img.svg-town(src='img/town.svg', alt='Town')
+
+                    //- (main) House and (xmas) Lights
+                    .svg-house
+                        img(src='img/house.svg', alt='House')
+                        img.svg-lights(src='img/lights.svg', alt='lights')
+
+                    //- Santa´s Sleight
+                    img.svg-sleigh(src='img/sleigh.svg', alt='Sleigh')
+
+                    //- (xmas) Star
+                    .svg-star.inactive
+                        img(src='img/star.svg', alt='Star')
+
+                    //- Characters doing something (kindos, birds and shoppers)
+                    img.svg-sledge(src='img/sledge.svg', alt='sledge')
+                    img.svg-robins(src='img/robins.svg', alt='robins')
+                    img.svg-peace(src='img/peace.svg', alt='peace')
+                    img.svg-shopping(src='img/shopping.svg', alt='shopping')
+
+                    //- Chorus singin´People
+                    .svg-carollers
+                        img(src='img/carolers.svg', alt='carollers')
+
+                    //- INSIDE HOUSE :: All Floors
+                    img.svg-firstfloor(src='img/firstfloor.svg', alt='firstfloor')
+                    img.svg-secondfloor(src='img/secondfloor.svg', alt='secondfloor')
+                    img.svg-nativity(src='img/nativity.svg', alt='nativity')
+
+                    //- INSIDE HOUSE :: first Floor
+                    .illust-level.illust-level--symbolsTown
+                        .illustItem.illustItem--yuletide.symbol.symbol--yuletide
+                            h2.symbol-title Seasons Greetings
+                        .symbols--outside
+                            .illustItem.illustItem--carols.symbol.symbol--carols
+                                h2.symbol-title Merry ChristmApps
+                        .symbols--inside.inactive
+                            .illustItem.illustItem--nutcracker.symbol.symbol--nutcracker
+                                h2.symbol-title Tiny Tim
+                            .illustItem.illustItem--present.symbol.symbol--present
+                                h2.symbol-title Mum
+                            .illustItem.illustItem--mincepie.symbol.symbol--mincepie
+                                h2.symbol-title Mince Pies
+                            .illustItem.illustItem--christmascards.symbol.symbol--christmascards
+                                h2.symbol-title Happy Christmas
+                            .illustItem.illustItem--bingcrosby.symbol.symbol--bingcrosby
+                                h2.symbol-title Bing Crosby
+                            .illustItem.illustItem--mariahcarey.symbol.symbol--mariahcarey
+                                h2.symbol-title Mariah Carey
+                            .illustItem.illustItem--endquote
+                                h2.symbol-title
+                                    span.symbol-title-sub Have
+                                    | a Merry ChristmApps!
+            //- /.Town level
+
+            #scroll-proxy
+
+            //- FOOTER (ending page)
+            footer.page-footer
+                ul.unstyled.page-footer-links
+                    li
+                        a.page-footer-info(href='https://twitter.com/jalofernandez', target='_blank') By Jalofernandez
+                    li
+                        a.page-footer-site.btn(href='http://www.upplication.com', target='_blank') Visit Upplication Site
+
+        //- Scripts Area
+        script(src='js/jquery.slim.min.js')
+        script(src='js/scripts-min.js')

@@ -1,0 +1,48 @@
+{
+  "name": "xmascard",
+  "version": "1.0.0",
+  "description": "Animated Christmas Card with all my best wishes for all of you",
+  "main": "gulpfile.js",
+  "dependencies": {
+    "jquery": "^3.1.1"
+  },
+  "devDependencies": {
+    "gulp": "^3.9.1",
+    "gulp-concat": "^2.6.1",
+    "gulp-uglify": "^2.0.0",
+    "gulp-clean-css": "^2.3.2",
+    "gulp-ignore": "^2.0.2",
+    "gulp-imagemin": "^3.1.1",
+    "gulp-jade": "^1.1.0",
+    "gulp-less": "^3.3.0",
+    "gulp-sitemap": "^4.2.0"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jalofernandez/xmascard.git"
+  },
+  "keywords": [
+    "gulp",
+    "js",
+    "css",
+    "html",
+    "animation",
+    "svg"
+  ],
+  "author": "@jalofernandez",
+  "author": "Javier Lorenzo <@jalofernandez>",
+  "contributors": [
+    {
+      "name": "Ashley Nolan",
+      "email": "www.ashleynolan.co.uk"
+    }
+  ],
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jalofernandez/xmascard/issues"
+  },
+  "homepage": "https://github.com/jalofernandez/xmascard#readme"
+}
