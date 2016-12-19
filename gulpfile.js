@@ -36,7 +36,7 @@ gulp.task('js', function () {
  * Configuración de la tarea 'css' --> gulp-clean-css (gulp css)
  */
 gulp.task('css', function() {
-    return gulp.src('css/sources/styles.css')
+    return gulp.src('css/sources/*.css')
         .pipe(cleanCSS({compatibility: 'ie8'}))
         .pipe(gulp.dest('css/'));
 });

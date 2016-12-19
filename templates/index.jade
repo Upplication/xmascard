@@ -16,6 +16,7 @@ html(lang='es')
         link(rel="mask-icon", href="img/favicon/safari-pinned-tab.svg", color="#5bbad5")
         meta(name="theme-color", content="#ffffff")
         //- Custom styles
+        link(rel='stylesheet', type='text/css', href='css/font-awesome.css')
         link(rel='stylesheet', type='text/css', href='css/styles.css')
 
     body
@@ -93,7 +94,7 @@ html(lang='es')
                     //- INSIDE HOUSE :: first Floor
                     .illust-level.illust-level--symbolsTown
                         .illustItem.illustItem--yuletide.symbol.symbol--yuletide
-                            h2.symbol-title Seasons Greetings
+                            h2.symbol-title Pymes Town
                         .symbols--outside
                             .illustItem.illustItem--carols.symbol.symbol--carols
                                 h2.symbol-title Merry ChristmApps
@@ -118,13 +119,41 @@ html(lang='es')
 
             #scroll-proxy
 
+            canvas#snow
+
             //- FOOTER (ending page)
             footer.page-footer
                 ul.unstyled.page-footer-links
                     li
-                        a.page-footer-info(href='https://twitter.com/jalofernandez', target='_blank') By Jalofernandez
+                        a.page-footer-logo(href='http://www.upplication.com', target='_blank', title="Ir a la web de Upplication")
+                            img(src="img/upplication_xmas.svg", alt="Upplication logo")
                     li
-                        a.page-footer-site.btn(href='http://www.upplication.com', target='_blank') Visit Upplication Site
+                        // a.page-footer-social.btn(href='http://www.upplication.com', target='_blank') Visit Upplication Site
+                        ul.page-footer-social
+                            li.facebook
+                                a(href='https://www.facebook.com/Upplication', target='_blank', title='Ir a la cuenta de Facebook de Upplication')
+                                    i.fa.fa-facebook
+                            li.twitter
+                                a(href='https://twitter.com/upplication', target='_blank', title='Ir a la cuenta de Twitter de Upplication')
+                                    i.fa.fa-twitter
+                            li.instagram
+                                a(href='https://www.instagram.com/upplication/', target='_blank', title='Ir a la cuenta de Instagram de Upplication')
+                                    i.fa.fa-instagram
+                            li.youtube
+                                a(href='https://www.youtube.com/upplication', target='_blank', title='Ir a la cuenta de Youtube de Upplication')
+                                    i.fa.fa-youtube-play
+                            li.linkedin
+                                a(href='https://www.linkedin.com/company/upplication', target='_blank', title='Ir a la cuenta de LinkedIn de Upplication')
+                                    i.fa.fa-linkedin
+                            li.google
+                                a(href='https://plus.google.com/+Upplication', target='_blank', title='Ir a la cuenta de Google Plus de Upplication')
+                                    i.fa.fa-google-plus
+                            li.github
+                                a(href='https://github.com/Upplication', target='_blank', title='Ir a la cuenta de GitHub de Upplication')
+                                    i.fa.fa-github
+                            li.blog
+                                a(href='https://www.upplication.com/blog/', target='_blank', title='Ir al Blog de Upplication')
+                                    i.fa.fa-rss
 
         //- Scripts Area
         script(src='js/jquery.slim.min.js')
